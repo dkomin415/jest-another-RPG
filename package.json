@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/dkomin415/jest-another-RPG.git"
   },
   "author": "",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/dkomin415/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^25.2.7"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
   }
 }
